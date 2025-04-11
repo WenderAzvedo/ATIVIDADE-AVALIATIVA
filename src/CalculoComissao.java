@@ -22,9 +22,9 @@ public class CalculoComissao {
 
         } while (diasTrabalhados <=0);
 
-        for (int loop = 1; loop <= diasTrabalhados; loop++) {
+        for (int dia = 1; dia <= diasTrabalhados; dia++) {
 
-            System.out.printf("Informe quantos clientes entraram no %d° dia: " , loop);
+            System.out.printf("Informe quantos clientes entraram no %d° dia: " , dia);
             int clientes = scanner.nextInt();
 
             System.out.print("Informe a quantidade de lampadas vendidas: ");
